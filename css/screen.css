@@ -533,6 +533,66 @@ a:focus {
 }
 
 /*
+    Component: footer
+    ---
+    Main footer of the website
+*/
+
+.c-footer {
+  display: block;
+}
+
+.c-footer__logo {
+}
+
+.c-footer__nav {
+  display: flex;
+}
+
+.c-footer__nav1 {
+  margin-right: 96px;
+}
+
+@media (min-width: 768px) {
+  .c-footer {
+    display: block;
+  }
+
+  .c-footer__logo {
+    text-align: center;
+  }
+
+  .c-footer__nav {
+    display: flex;
+    justify-content: center;
+  }
+  .c-footer__nav1 {
+    margin-right: 32px;
+  }
+}
+
+@media (min-width: 992px) {
+  .c-footer {
+    display: flex;
+  }
+
+  .c-footer__logo {
+    justify-content: center;
+    margin-right: 48px;
+  }
+
+  .c-footer__logo .c-logo {
+    height: 40px;
+  }
+  .c-footer__nav > .c-footer__nav1 {
+    justify-content: left;
+  }
+  .c-footer__nav > .c-footer__nav2 {
+    justify-content: right;
+  }
+}
+
+/*
     Component: header
     ---
     Main header of the website
