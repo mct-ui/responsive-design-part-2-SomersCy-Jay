@@ -531,6 +531,18 @@ a:focus {
     line-height: 72px;
   }
 }
+/*
+    Component: icon
+    ---
+    
+*/
+.c-title-icon {
+  display: flex;
+}
+.c-title-icon__icon {
+  width: 125px;
+  margin-right: 24px;
+}
 
 /*
     Component: footer
